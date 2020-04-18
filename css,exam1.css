@@ -1,0 +1,40 @@
+
+        /* 주석 */
+        /*태그 선택자*/
+        div {
+            border-style: solid;
+            border-color: crimson;
+        }
+
+        /*클래스 선택자*/
+        .important {
+            font-size: 2em;
+
+        }
+        .auto{
+            color: darkmagenta;
+        }
+        /*id선택자*/
+        #title1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: x-large;
+
+        }
+        /*다중 선택자 태그들 사이를 , 로 구분한다*/ 
+        h3,h2,h4{
+            text-align: center;
+            font-size: xx-large;
+        }
+        /*자식 선택자 띄어쓰기 또는 > 로 구분한다*/
+        
+        .css-short > li{
+            color: greenyellow;
+        }
+        
+        /*구체적인 선택자 구체적으로 선택할 수 있다 */
+        h3.han{
+            font-size: medium;
+            text-align: left;
+            color: darkturquoise;
+        }
+        /*더구체적인  쪽의 명령을 따른다*/ 
